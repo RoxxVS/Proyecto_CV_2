@@ -7,21 +7,28 @@ header {
     font-family: courguette;
 }
 body {
-    margin: 5%;
+    margin: 1% 5%;
     padding: 0px;
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: indie-flower;
+    
 }
-h2 {
+h2, h3 {
     font-size: 1.8vw;
+    font-family: indie-flower;
     position: relative;
     left: 5%;
 
 }
+h3 {
+    font-size: 1.3vw;
+}
 p {
+    margin: 0px;
+    padding: 0.5%;
     font-size: 1.6vw;
+    font-family: indie-flower;
 }
 
 @font-face {  
@@ -38,3 +45,10 @@ p {
     src: url(fuentes/IndieFlower-Regular.ttf);
     
 }
+/**@font-face {  
+
+    font-family: MarckScript_regular;
+    
+    src: url(fuentes\MarckScript_regular.ttf);
+    
+}*/
