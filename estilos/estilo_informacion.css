@@ -1,0 +1,40 @@
+header {
+    margin: 0px;
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2vw;
+    font-family: courguette;
+}
+body {
+    margin: 5%;
+    padding: 0px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: indie-flower;
+}
+h2 {
+    font-size: 1.8vw;
+    position: relative;
+    left: 5%;
+
+}
+p {
+    font-size: 1.6vw;
+}
+
+@font-face {  
+
+    font-family: courguette;
+    
+    src: url(fuentes/Courgette-Regular.ttf);
+    
+}
+@font-face {  
+
+    font-family: indie-flower;
+    
+    src: url(fuentes/IndieFlower-Regular.ttf);
+    
+}
