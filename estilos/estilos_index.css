@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffdc82;
+}
+.contprincipal {
+    border: 0px;
+    width: 99vw;
+    height: 49vw;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+}
+.cont1 {
+    margin: 0px;
+    padding: 7px 3%;
+    background-image: url(imagenes/perfil.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 32% auto;
+}
+.cont2 {
+    margin: 0px;
+    padding: 0px 3% 0px 0px;
+    display: grid;
+    grid-template-rows: 22.5% 22.5% 22.5% 22.5% 10%;
+}
+.col_a {
+    margin: 0px;
+    padding: 20% 3% 8% 3%;
+    font-family: Sevillana;
+    color: white;
+    font-size: 2.7vw;
+    text-align: center;
+}
+.lista {
+    margin: 0px;
+    padding: 16% 0% 5% 5%;
+    font-family: EastSea;
+    color: black;
+    font-size: 3.1vw;
+    text-align: left;
+}
+.redes {
+    margin: 0px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: auto 15% 15% 15% 15% 15%;
+}
+.red {
+    margin: 0px;
+    padding: 12%;
+}
+.icono {
+    width: 100%;
+    height: auto;
+}
+
+/**Media queries*/
+
+@media screen and (orientation:portrait) {
+    .contprincipal { 
+        width: 100vw;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 38% 58%;
+    }
+    .cont1 {   
+        width: 100%;
+        height: auto;
+    }
+    .cont2 {   
+        display: grid;
+        grid-template-rows: 20.5% 20.5% 20.5% 20.5% 18%;
+    }
+    .col_a { 
+        font-size: 4vw;
+    }
+    .lista {
+        padding: 0% 5% 5% 5%;
+        font-size: 10vw;
+    }   
+}
+
+/**Fuentes descargadas*/
+@font-face {                           /**Creo la font-family descargada*/
+
+    font-family: Sevillana;
+    
+    src: url(fuentes/Sevillana-Regular.ttf);
+    
+}
+@font-face {  
+
+    font-family: EastSea;
+    
+    src: url(fuentes/EastSeaDokdo-Regular.ttf);
+    
+}
