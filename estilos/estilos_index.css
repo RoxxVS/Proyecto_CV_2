@@ -37,9 +37,9 @@ body {
 .lista {
     margin: 0px;
     padding: 16% 0% 5% 5%;
-    font-family: EastSea;
+    font-family: Indie;
     color: black;
-    font-size: 3.1vw;
+    font-size: 2.6vw;
     text-align: left;
 }
 .redes {
@@ -98,5 +98,12 @@ body {
     font-family: EastSea;
     
     src: url(fuentes/EastSeaDokdo-Regular.ttf);
+    
+}
+@font-face {  
+
+    font-family: Indie;
+    
+    src: url(fuentes/IndieFlower-Regular.ttf);
     
 }

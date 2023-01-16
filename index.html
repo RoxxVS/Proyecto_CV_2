@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="icono-flor.ico">   <!--Icono-->
 </head>
 <body>
+    <script src="comportamientos/comp_index.js"></script>
     <div class="contprincipal">
         <div class="cont1">  <!--Presentación-->
             <div class="col_a">Me llamo <span style="color: rgb(247, 213, 151);">Vera Chambers</span> y soy la mejor diseñadora gráfica que vas a encontrar. Trabajo con el profesionalismo, la creatividad y la originalidad que tu negocio necesita.</div>
@@ -21,19 +22,19 @@
             <div class="redes">
                 <div class="red"></div>
                 <div class="red">
-                    <img class="icono" src="recursos/01-whatsapp.png" alt="No se puede cargar la imagen"/>
+                    <img class="icono" src="recursos/01-whatsapp.png" alt="No se puede cargar la imagen" onclick="irAWsp()"/>
                 </div>
                 <div class="red">
-                    <img class="icono" src="recursos/02-facebook.png" alt="No se puede cargar la imagen"/>
+                    <img id="fb" class="icono" src="recursos/02-facebook.png" alt="No se puede cargar la imagen" onclick="irAFb()"/>
                 </div>
                 <div class="red">
-                    <img class="icono" src="recursos/03-twitter.png" alt="No se puede cargar la imagen"/>
+                    <img id="tt" class="icono" src="recursos/03-twitter.png" alt="No se puede cargar la imagen" onclick="irATt()"/>
                 </div>
                 <div class="red">
-                    <img class="icono" src="recursos/04-instagram.png" alt="No se puede cargar la imagen" />
+                    <img id="ig" class="icono" src="recursos/04-instagram.png" alt="No se puede cargar la imagen" onclick="irAIg()"/>
                 </div>
                 <div class="red">
-                    <img class="icono" src="recursos/05-github.png" alt="No se puede cargar la imagen"/>
+                    <img id="gh" class="icono" src="recursos/05-github.png" alt="No se puede cargar la imagen" onclick="irAGh()"/>
                 </div>
             </div>
         </div>
