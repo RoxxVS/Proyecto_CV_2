@@ -14,17 +14,19 @@ body {
     background-size: cover;
     
 }
-h2, h3 {
+.subtitulo {
     font-size: 1.8vw;
     font-family: indie-flower;
+    font-weight: bolder;
     position: relative;
     left: 5%;
+    border-bottom: 1px dotted black;
 
 }
 h3 {
     font-size: 1.3vw;
 }
-p {
+.texto {
     margin: 0px;
     padding: 0.5%;
     font-size: 1.6vw;
@@ -35,7 +37,7 @@ p {
     right: 3vw;
     top: 6vw;
     background-color: #ffdc82;
-    border: none;
+    border: 1px solid black;
     color: #866615;
     padding: 2vw 3vw;
     text-align: center;
@@ -46,6 +48,28 @@ p {
     cursor: pointer;
     font-family: courguette;
 }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-weight:bold ;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 30vw;
+    background-color: #ffdc82;
+    color: black;
+    text-align: center;
+    border-radius: 6vw;
+    padding: 1vw 0;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 100%;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 @font-face {  
 

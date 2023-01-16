@@ -16,3 +16,15 @@ function irAGh() {
 function irAlMenu() {
     location.href ='index.html';
 }
+function irA01() {
+    location.href ='01-informacion_personal.html';
+}
+function irA02() {
+    location.href ='02-educacion.html';
+}
+function irA03() {
+    location.href ='03-herramientas_y_habilidades.html';
+}
+function irA04() {
+    location.href ='04-experiencia.html';
+}
