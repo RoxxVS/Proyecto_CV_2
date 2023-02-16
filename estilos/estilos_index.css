@@ -48,7 +48,7 @@ li {
     margin: 0px;
     padding: 5%;
     display: grid;
-    grid-template-columns: auto 15% 15% 15% 15% 15%;
+    grid-template-columns: 14% auto 14% 14% 14% 14% 14%;
 }
 .red {
     margin: 0px;

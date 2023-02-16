@@ -1,3 +1,6 @@
+function irAContacto() {
+    location.href ='05-contacto.html';
+}
 function irAWsp() {
     location.href ='https://web.whatsapp.com/';
 }
