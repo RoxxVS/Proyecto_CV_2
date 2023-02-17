@@ -6,28 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Vera Chambers</title>
     <!--Open graph-->
-    <meta property="og:title" content="CV Vera chambers-Diseñadora Gráfica" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="estilos/imagenes/perfil.jpg" />
-    <meta property="og:url" content="https://github.com/RoxxVS/Proyecto_CV.git" />  
+   <!-- HTML Meta Tags -->
+   <title>CV Vera chambers-Diseñadora Gráfica</title>
+   <meta name="description" content="Soy Vera Chambers, diseñadora gráfica. Te invito a conocerme.">
+   <!-- Facebook Meta Tags -->
+   <meta property="og:url" content="https://RoxxVS.github.io/Proyecto_CV/">
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="CV Vera chambers-Diseñadora Gráfica">
+   <meta property="og:description" content="Soy Vera Chambers, diseñadora gráfica. Te invito a conocerme.">
+   <meta property="og:image" content="https://RoxxVS.github.io/estilos/imagenes/perfil.jpg">
+   <!-- Twitter Meta Tags -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta property="twitter:domain" content="RoxxVS.github.io">
+   <meta property="twitter:url" content="https://RoxxVS.github.io/Proyecto_CV/">
+   <meta name="twitter:title" content="CV Vera chambers-Diseñadora Gráfica">
+   <meta name="twitter:description" content="Soy Vera Chambers, diseñadora gráfica. Te invito a conocerme.">
+   <meta name="twitter:image" content="https://RoxxVS.github.io/estilos/imagenes/perfil.jpg">
     <!--Hoja de estilo-->
     <link rel="stylesheet" href="estilos/estilos_index.css">
     <!--Icono-->
     <link rel="icon" type="image/x-icon" href="icono-flor.ico">   
 </head>
 <body>
-    <script src="comportamientos/comp_index.js"></script>
     <section class="contprincipal">
         <div class="cont1">  <!--Presentación-->
             <div class="col_a">Me llamo <span style="color: rgb(247, 213, 151);">Vera Chambers</span> y soy la mejor diseñadora gráfica que vas a encontrar. Trabajo con el profesionalismo, la creatividad y la originalidad que tu negocio necesita.</div>
         </div>
         <section class="cont2">   <!--Menú-->
-            <ul>
+            <nav>
                 <li><a onclick="irA01()">Información personal</a></li>
                 <li><a onclick="irA02()">Educación</a></li>
                 <li><a onclick="irA03()">Herramientas y habilidades</a></li>
                 <li><a onclick="irA04()">Experiencia</a></li>
-            </ul>
+            </nav>
             <section class="redes">
                 <div class="red">
                     <img class="icono" src="recursos/06-contacto.png" alt="No se puede cargar la imagen" onclick="irAContacto()"/>
@@ -51,5 +62,6 @@
             </section>
         </section>
     </section>
+    <script src="comportamientos/comp_index.js"></script>
 </body>
 </html>
