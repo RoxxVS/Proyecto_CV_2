@@ -9,6 +9,32 @@
     <link rel="icon" type="image/x-icon" href="icono-flor.ico">   <!--Icono-->
 </head>
 <body>
-    
+    <script src="comportamientos/comp_index.js"></script>
+    <header>Contacto</header>
+    <h2 class="subtitulo">Deja tu mensaje para ponerte en contacto conmigo</h2>
+    <form action="" method="post" class="texto">
+        <ul>
+         <li>
+           <label for="nombre">Nombre/Empresa:</label>
+           <br>
+           <input type="text" id="nombre" name="nombre_de_contacto">
+         </li>
+         <li>
+           <label for="mail">Correo electrónico:</label>
+           <br>
+           <input type="email" id="mail" name="mail_de_contacto">
+         </li>
+         <li>
+           <label for="mensaje">Mensaje:</label>
+           <br>
+           <textarea id="mensaje" name="mensaje_de_contacto"></textarea>
+         </li>
+         <li class="button">
+            <button type="submit">Envíe su mensaje</button>
+        </li>
+        </ul>
+       </form>
+
+    <button class="boton" type="button" onclick="irAlMenu()">Ir al inicio</button> 
 </body>
 </html>
